@@ -5,18 +5,17 @@
 }
 
 body {
-  font-family: 'Titillium Web', sans-serif;
-  color: #444;
-  transition: all .4s .3s ease-in;
-  font-size: 16px;
-  min-width: 320px;
+  background: url(/app/assets/img/bg.jpg) no-repeat 50% 0;
 }
 
-body,html{
-	min-height: 100vh;
+// body,html{
+// 	min-height: 100vh;
+// }
+
+a, a:hover {
+  text-decoration: none;
 }
 
-.container {
-  max-width: 1150px;
-  margin: 0 auto;
+ol, ul {
+  list-style: none;
 }
